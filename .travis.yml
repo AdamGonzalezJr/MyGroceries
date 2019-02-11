@@ -1,9 +1,18 @@
 language: cpp
+<<<<<<< HEAD
 
 os: linux
 
 script:
-        - make clean
-        - make
+        - all:
+                g++ -Wfatal-errors main.cpp
+~                                                                               
+~                                                                               
+~           
 
 
+=======
+os: linux
+script:
+    - make
+>>>>>>> 741efe7ff857764f0cda22911c236592b55e4a51
